@@ -30,7 +30,12 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. Describe the biggest difference between `.forEach` & `.map`.
 
+    .forEach allows you to edit the original array.
+    .map creates a new array.
+
 2. What is the difference between a function and a method?
+
+    A method is a function inside of an object.
 
 3. What is closure?
 
