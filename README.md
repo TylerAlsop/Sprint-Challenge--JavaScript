@@ -53,6 +53,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. Why do we need super() in an extended class?
 
+    super() calls and incorporates the parameters, keys, and values of the constructor of the parent class that it is extending from.
+
 ## Project Set up
 
 Follow these steps to set up and work on your project:
