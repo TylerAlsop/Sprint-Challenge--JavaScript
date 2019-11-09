@@ -14,6 +14,17 @@
 
 // Using your dinosaur objects, log answers to these questions:
 
+class Dinosaur {
+  constructor(name, eats, weight, height, livedDuring){
+    this.name = name;
+    this.weight = weight;
+    this.height = height;
+    this.livedDuring = livedDuring;
+  }
+}
+
+let tyrannosaurus = new Dinosaur ("tyrannosaurus", "carnivorous", "7000kg", "12m", "Late Cretaceous");
+
 // How much did tyrannosaurus weigh?
 console.log();
 
