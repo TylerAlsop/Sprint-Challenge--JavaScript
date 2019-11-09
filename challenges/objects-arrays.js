@@ -72,7 +72,7 @@ const graduates = [
 
 
 Once you have the new array created, sort the universities alphabetically and log the result. */
-const universities = [graduates.map(obj => {
+const universities = [graduates.map(fucntion(obj){
   return obj.university;
 });
 console.log(universities);
@@ -83,11 +83,17 @@ The resulting contact information strings should have a space between the first 
 "Josh josh@example.com"
 
 Log the result of your new array. */
-const contactInfo = [];
+const contactInfo = graduates.map(function(obj) {
+  return `${obj.first_name} ${obj.email}`;
+});
 console.log(contactInfo);
 
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
-const unisWithUni = [];
+const unisWithUni = graduates.map(function (obj) {
+  if (obj.university = "Uni"){
+    return obj.university;
+  })
+
 console.log(unisWithUni);
 
 
