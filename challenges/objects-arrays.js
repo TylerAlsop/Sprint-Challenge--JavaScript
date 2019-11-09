@@ -15,31 +15,40 @@
 // Using your dinosaur objects, log answers to these questions:
 
 class Dinosaur {
-  constructor(name, eats, weight, height, livedDuring){
+  constructor(name, diet, weight, height, livedDuring){
     this.name = name;
+    this.diet = diet;
     this.weight = weight;
     this.height = height;
     this.livedDuring = livedDuring;
+  }
+  roar() {
+    return "RAWERSRARARWERSARARARRRR!"
   }
 }
 
 let tyrannosaurus = new Dinosaur ("tyrannosaurus", "carnivorous", "7000kg", "12m", "Late Cretaceous");
 
+let stegosaurus = new Dinosaur ("stegosaurus", "herbivorous", "2000kg", "9m", "Late Jurassic")
+
+let velociraptor = new Dinosaur ("velociraptor", "carnivorous", "15kg", "1.8m", "Late Cretaceous");
+
+
 // How much did tyrannosaurus weigh?
-console.log();
+console.log(tyrannosaurus.weight);
 
 // What was the diet of a velociraptor?
-console.log();
+console.log(velociraptor.diet);
 
 // How long was a stegosaurus?
-console.log();
+console.log(stegosaurus.height);
 
 // What time period did tyrannosaurus live in?
-console.log();
+console.log(tyrannosaurus.livedDuring);
 
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
-console.log();
+console.log(tyrannosaurus.roar());
 
 
 // ==== Arrays ====
